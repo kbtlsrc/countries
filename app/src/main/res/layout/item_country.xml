@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginEnd="25dp"
+    android:layout_marginStart="25dp"
+    android:layout_marginTop="25dp"
+    android:layout_marginBottom="7dp"
+    android:background="@drawable/frame_country">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_margin="20dp"
+        android:id="@+id/tv_country"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_centerVertical="true"
+        android:maxLines="1"
+        android:text="COUNTRY"
+        android:textSize="15dp"
+        android:drawableEnd="@drawable/ic_star"/>
+
+
+</RelativeLayout>
